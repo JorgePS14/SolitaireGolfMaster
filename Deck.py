@@ -22,7 +22,3 @@ class Deck(object):
         for card in self.cards:
             deck += str(card)+"\n"
         return deck
-
-deck = Deck()
-deck.shuffle(3)
-print(deck)
